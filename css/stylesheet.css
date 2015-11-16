@@ -1,0 +1,41 @@
+body {
+  background-image: url(http://assets.natgeotv.com/Photos/41/104441.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+}
+nav ul {
+  text-align: right;
+}
+nav ul li{
+  display: inline;
+  list-style-type: none;
+  padding: 0.5em 1.5em;
+  color: white;
+}
+
+.ouverture,
+.contact,
+.ticket {
+  border: 1px solid black;
+  float: left;
+  height: 15em;
+  width: 20em;
+  margin-top: 30em;
+  margin-left: 3.5em;
+  margin-right: 5em;
+  background-color: white;
+}
+
+.ticket{
+  margin-right: 0;
+}
+
+h1 {
+  font-size: 35px;
+}
