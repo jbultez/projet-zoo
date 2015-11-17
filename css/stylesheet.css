@@ -1,9 +1,9 @@
 body {
   background-image: url(http://assets.natgeotv.com/Photos/41/104441.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  width: 100%;
 }
-
 nav {
   width: 100%;
   background-color: rgba(0,0,0,0.8);
@@ -26,7 +26,7 @@ nav ul li{
   float: left;
   height: 15em;
   width: 20em;
-  margin-top: 30em;
+  margin-top: 43em;
   margin-left: 3.5em;
   margin-right: 5em;
   background-color: white;
